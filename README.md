@@ -10,8 +10,8 @@ Aside from reproductive issues, PCOS is significantly linked to a variety of met
 This project is aimed at building a machine learning model that is able predict whether a female patient has  PCOS or not.
 Python progarmming language was used to build this model.
 The data set used in building this model is available on kaggle: www.kaggle.com/prasoonkottarathil/polycystic-ovary-syndrome-pcos.
-Started by importing the necessary libraries, reading the file and getting the data set ready.
-Proceeded to performing some EDA and visualizing some outliers.
-Though there were some outliers present in the dataset, they were not removed because the data set is small and removing them would further reduce the dataset and may cause overfitting. Hence, method robust to outliers was used.
-The next step was model building. For the purpose of this project, the Random Forest Classifier algorithm was used.
-GridSearchCV was employed for fine tuning the parameters for the model. The parameters selected yielded a 91% accuracy of the model.
+- Started by importing the necessary libraries, reading the file and getting the data set ready.
+- Proceeded to performing some EDA and visualizing some outliers.
+- Though there were some outliers present in the dataset, they were not removed because the data set is small and removing them would further reduce the dataset and may cause overfitting. Hence, method robust to outliers was used.
+- The next step was model building. For the purpose of this project, the Random Forest Classifier algorithm was used.
+- GridSearchCV was employed for fine tuning the parameters for the model. The parameters selected yielded a 91% accuracy of the model.
